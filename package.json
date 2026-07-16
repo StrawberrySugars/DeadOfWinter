@@ -4,6 +4,7 @@
   "description": "Card descriptions for searching locations in the Dead of Winter board game.",
   "main": "server.js",
   "scripts": {
+    "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
