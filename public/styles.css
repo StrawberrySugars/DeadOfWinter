@@ -1,0 +1,28 @@
+/*horizontal dividers*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/*tr {
+    border-bottom: 1px solid #ddd;
+} -*/
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+}
+
+/* vertical zebra stripes */
+/* td:nth-child(even), th:nth-child(even) {
+    background-color: #D6EEEE;
+} */
+
+/* hoverable table */
+tr:hover {background-color: #D6EEEE;}
+
+/* spacing */
+/* table {
+    border-spacing: 30px;
+} */
